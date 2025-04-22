@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+    <servlet-name>EligibleStudentsServlet</servlet-name>
+    <servlet-class>EligibleStudentsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EligibleStudentsServlet</servlet-name>
+    <url-pattern>/eligible</url-pattern>
+</servlet-mapping>
+</web-app>
